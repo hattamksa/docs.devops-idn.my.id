@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "GIT_USER=hattamksa docusaurus deploy",
+    "deploy": "GIT_USER=hattamksa USE_SSH=true docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -43,10 +43,5 @@
   },
   "engines": {
     "node": ">=18.0"
-  },
-  "homepage": "https://hattamksa.github.io/docs.devops-idn.my.id/",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:hattamksa/docs.devops-idn.my.id.git"
   }
 }
